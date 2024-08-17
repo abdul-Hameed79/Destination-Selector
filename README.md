@@ -13,7 +13,9 @@ This project is a professional UI built using ReactJS and Tailwind CSS. The webs
 # Installation
 
 clone this Repository: 
+
 git clone https://github.com/abdul-Hameed79/Destiny-Cards.git
+
 cd Destiny-Cards
 
 # Usage
