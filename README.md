@@ -46,7 +46,10 @@ This Project is licensed under the GNU GENERAL PUBLIC LICENSE.
 
 # Images
 
-![my-app](https://github.com/user-attachments/assets/d595e844-2888-463a-ae77-a158eef145b3)
+https://github.com/user-attachments/assets/7d5bf0db-09e9-46fa-b53f-6af458d9ad7a
+
+
+
 
 
 
