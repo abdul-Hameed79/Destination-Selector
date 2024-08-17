@@ -21,26 +21,39 @@ cd Destiny-Cards
 # Usage
 
 Browse the list of tourist destinations.
+
 Click on "Confirm your destination" to select a place and hide the others.
+
 Click on "Not Interested" to remove a place from the list.
+
 If all places are removed, click the "Refresh" button to reset the list.
 
 # Project Structure
 
 src/
+
 │
+
 ├── assets/          # Images for the destinations
+
 ├── components/      # React components
+
 │   ├── TourCard.jsx # Individual card component for each place
+
 │   └── TourList.jsx # List component that handles the display of all cards
+
 ├── App.jsx          # Main application component
+
 └── index.js         # Entry point for React
+
 
 # Technologies Used
 
-ReactJS: JavaScript library for building user interfaces.
-Tailwind CSS: Utility-first CSS framework for styling.
-Flexbox: Used for responsive layout of the cards.
+# ReactJS: JavaScript library for building user interfaces.
+
+# Tailwind CSS: Utility-first CSS framework for styling.
+
+# Flexbox: Used for responsive layout of the cards.
 
 # Contributing
 
