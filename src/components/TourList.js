@@ -22,7 +22,7 @@ const TourList = ({ places }) => {
 
   if (selectedPlace) {
     return (
-      <div className='mt-4 w-1/4 h-2/4 object-fit mx-auto'>
+      <div className='mt-4 w-1/4 h-2/5 object-fill mx-auto'>
       <TourCard place={selectedPlace} onConfirm={() => {}} onNotInterested={() => {}} />
       </div>
     )
@@ -32,7 +32,7 @@ const TourList = ({ places }) => {
     return (
       <div className="text-center mt-10">
         <button 
-          className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600" 
+          className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600" 
           onClick={handleRefresh}>
           Refresh
         </button>
