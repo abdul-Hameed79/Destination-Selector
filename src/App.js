@@ -8,7 +8,7 @@ const App = () => {
       destination: "Ladhak",
       image: require('./assets/ladakh.jpg'),
       price: 29.99,
-      description: "description of city 1",
+      description: "description of city 1"
     },
     {
       id:2,
@@ -90,8 +90,10 @@ const App = () => {
 ];
 
 return (
-  <div className="App">
-    <h1 className='mt-4 text-center font-bold text-3xl mb-4'> Select Your Destiny </h1>
+  <div className="container mx-auto p-4">
+    <h1 className='text-center font-bold text-3xl mb-4'> 
+      Select Your Destiny 
+    </h1>
       <DestinyList places={places} />
     </div>
   );
