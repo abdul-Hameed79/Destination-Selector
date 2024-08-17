@@ -14,19 +14,21 @@ This project is a professional UI built using ReactJS and Tailwind CSS. The webs
 
 clone this Repository: 
 
-git clone https://github.com/abdul-Hameed79/Destiny-Cards.git
+git clone https://github.com/abdul-Hameed79/Destination-Selector.git
 
-cd Destiny-Cards
+cd Destination-Selector
 
 # Usage
 
 Browse the list of tourist destinations.
 
-Click on "Confirm your destination" to select a place and hide the others.
+Click on "Intrested" to select a place and hide the others.
 
 Click on "Not Interested" to remove a place from the list.
 
 If all places are removed, click the "Refresh" button to reset the list.
+
+click on "ReadMore" to read entire description of the place.
 
 # Technologies Used
 
