@@ -28,18 +28,6 @@ Click on "Not Interested" to remove a place from the list.
 
 If all places are removed, click the "Refresh" button to reset the list.
 
-# Project Structure
-
- src/
- │
- ├── assets/          # Images for the destinations
- ├── components/      # React components
- │   ├── TourCard.jsx # Individual card component for each place
- │   └── TourList.jsx # List component that handles the display of all cards
- ├── App.jsx          # Main application component
- └── index.js         # Entry point for React
-
-
 # Technologies Used
 
 ReactJS: JavaScript library for building user interfaces.
@@ -54,7 +42,7 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 
 # Licence
 
-This Project is licensed under the MIT License.
+This Project is licensed under the GNU GENERAL PUBLIC LICENSE.
 
 # Images
 
