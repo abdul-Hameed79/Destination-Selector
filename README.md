@@ -30,30 +30,23 @@ If all places are removed, click the "Refresh" button to reset the list.
 
 # Project Structure
 
-src/
-
-│
-
-├── assets/          # Images for the destinations
-
-├── components/      # React components
-
-│   ├── TourCard.jsx # Individual card component for each place
-
-│   └── TourList.jsx # List component that handles the display of all cards
-
-├── App.jsx          # Main application component
-
-└── index.js         # Entry point for React
+# src/
+# │
+# ├── assets/          # Images for the destinations
+# ├── components/      # React components
+# │   ├── TourCard.jsx # Individual card component for each place
+# │   └── TourList.jsx # List component that handles the display of all cards
+# ├── App.jsx          # Main application component
+# └── index.js         # Entry point for React
 
 
 # Technologies Used
 
-# ReactJS: JavaScript library for building user interfaces.
+ReactJS: JavaScript library for building user interfaces.
 
-# Tailwind CSS: Utility-first CSS framework for styling.
+Tailwind CSS: Utility-first CSS framework for styling.
 
-# Flexbox: Used for responsive layout of the cards.
+Flexbox: Used for responsive layout of the cards.
 
 # Contributing
 
