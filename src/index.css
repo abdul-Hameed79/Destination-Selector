@@ -3,5 +3,7 @@
 @tailwind utilities;
 
 body {
+    background-image: radial-gradient(circle, #0d1467, #091967, #061d67, #052166, #052465, #072262, #08215f, #091f5c, #0a1856, #0b114f, #0c0a49, #0f0042);    background-attachment: fixed;
     overflow-x: hidden;
+    background-attachment: scroll;
 }
