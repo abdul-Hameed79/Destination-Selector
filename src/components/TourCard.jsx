@@ -9,9 +9,9 @@ const TourCard = ({ place, onConfirm, onNotInterested }) => {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-4 mb-4 transform transition duration-300 hover:scale-105 hover:shadow-xl hover:shadow-zinc-500">
-      <img src={place.image} alt={place.destination} className="w-full h-52 object-fill rounded-md" />
-      <h3 className="text-xl font-bold mt-4">{place.destination}</h3>
+    <div className="bg-gray-300 shadow-md p-4 mb-4 transform transition duration-300 hover:scale-105 hover:shadow-xl hover:shadow-slate-400 flex-wrap">
+      <img src={place.image} alt={place.name} className="w-96 h-52 object-fill rounded-md" />
+      <h3 className="text-xl font-bold mt-4">{place.name}</h3>
       <div className="mt-2">
         <p className="text-gray-600 inline">
           {isExpanded ? place.Description : `${place.Description.slice(0, 80)}...`}

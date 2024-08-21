@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 body {
+    background:linear-gradient(210deg, slategrey, #ccc, #101, #fff, grey, slategrey);
     overflow-x: hidden;
 }

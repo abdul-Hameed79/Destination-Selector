@@ -22,7 +22,7 @@ const TourList = ({ places }) => {
 
   if (selectedPlace) {
     return (
-      <div className='mt-4 w-1/4 h-2/5 object-fill mx-auto'>
+      <div className='mt-4 w-96 h-52 object-fill mx-auto'>
       <TourCard place={selectedPlace} onConfirm={() => {}} onNotInterested={() => {}} />
       </div>
     )
@@ -30,7 +30,7 @@ const TourList = ({ places }) => {
 
   if (remainingPlaces.length === 0) {
     return (
-      <div className="text-center mt-10">
+      <div className="text-center mt-60">
         <button 
           className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600" 
           onClick={handleRefresh}>
@@ -41,7 +41,7 @@ const TourList = ({ places }) => {
   }
 
   return (
-    <div className="flex-wrap grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="flex-wrap grid grid-cols-3 gap-20">
       {remainingPlaces.map((place) => (
         <TourCard 
           key={place.id} 
