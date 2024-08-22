@@ -5,7 +5,7 @@ const TourList = ({ places }) => {
   const [selectedPlace, setSelectedPlace] = useState(null);
   const [remainingPlaces, setRemainingPlaces] = useState(places);
 
-  const handleConfirm = (id) => {
+  const handleIntrested = (id) => {
     const place = remainingPlaces.find((p) => p.id === id);
     setSelectedPlace(place);
   };
@@ -22,8 +22,12 @@ const TourList = ({ places }) => {
 
   if (selectedPlace) {
     return (
-      <div className='mt-4 w-96 h-52 object-fill mx-auto'>
-      <TourCard place={selectedPlace} onConfirm={() => {}} onNotInterested={() => {}} />
+      <div className='container mx-auto my-32 w-96 h-52 object-cover'>
+        <TourCard 
+          place={selectedPlace} 
+          onIntrested={() => {}} 
+          onNotInterested={() => {}} 
+        />
       </div>
     )
   }
@@ -31,8 +35,11 @@ const TourList = ({ places }) => {
   if (remainingPlaces.length === 0) {
     return (
       <div className="text-center mt-60">
+        <h1 className='text-white font-semibold text-3xl mb-10'>
+          No Cards Left
+        </h1>
         <button 
-          className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600" 
+          className="text-xl text-white border border-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-300 hover:scale-90 hover:border-white"
           onClick={handleRefresh}>
           Refresh
         </button>
@@ -41,16 +48,21 @@ const TourList = ({ places }) => {
   }
 
   return (
-    <div className="flex-wrap grid grid-cols-3 gap-20">
-      {remainingPlaces.map((place) => (
-        <TourCard 
-          key={place.id} 
-          place={place} 
-          onConfirm={handleConfirm} 
-          onNotInterested={handleNotInterested} 
-        />
-      ))}
-    </div>
+    <>
+      <h1 className='text-center text-slate-200 text-3xl mb-10 font-extrabold'> 
+        Select Your Destiny 
+      </h1>      
+      <div className="flex-wrap grid grid-cols-3 gap-20">
+        {remainingPlaces.map((place) => (
+          <TourCard 
+            key={place.id} 
+            place={place} 
+            onIntrested={handleIntrested} 
+            onNotInterested={handleNotInterested} 
+          />
+        ))}
+      </div>
+    </>  
   );
 };
 
