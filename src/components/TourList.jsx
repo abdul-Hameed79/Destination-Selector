@@ -39,7 +39,7 @@ const TourList = ({ places }) => {
           No Cards Left
         </h1>
         <button 
-          className="text-xl text-white border border-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-300 hover:scale-90 hover:border-white"
+          className="text-xl text-white border border-white px-4 py-2 rounded-md hover:bg-white hover:text-black transition duration-300 hover:scale-90 hover:border-black"
           onClick={handleRefresh}>
           Refresh
         </button>
