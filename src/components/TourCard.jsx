@@ -9,7 +9,7 @@ const TourCard = ({ place, onIntrested, onNotInterested }) => {
   };
 
   return (
-    <div className="bg-black rounded-lg shadow-md p-4 mb-4 transform transition duration-300 hover:scale-105 hover:shadow-xl hover:shadow-black flex-wrap">
+    <div className="bg-gray-700 rounded-lg shadow-md p-4 mb-4 transform transition duration-300 hover:scale-105 hover:shadow-xl hover:shadow-black flex-wrap">
       <img src={place.image} alt={place.name} className="w-96 h-52 object-cover rounded-md" />
       <h3 className="text-xl text-white font-bold mt-4">{place.name}</h3>
       <div className="mt-2">
